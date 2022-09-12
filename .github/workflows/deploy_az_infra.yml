@@ -17,7 +17,7 @@ on:
 defaults:
   run:
     working-directory:
-      ./deploy/azure/terraform/deploy_env
+      deploy/azure/terraform/deploy_env
 
 jobs:
   terraform:
