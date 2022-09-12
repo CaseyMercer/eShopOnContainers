@@ -47,7 +47,7 @@ variable "containerRegistryName" {
 }
 variable "resourceGroupName" {
   type        = string
-  default     = "Morpheus-State-Storage"
+  default     = "Morpheus-Application"
   description = "Resource group to contain ACR, AKS, and LA Workspace"
 }
 variable "aksClusterName" {
